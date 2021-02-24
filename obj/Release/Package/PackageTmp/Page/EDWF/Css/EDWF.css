@@ -1,0 +1,108 @@
+﻿/** {
+    border-radius: 0 !important;
+}*/
+a {
+    cursor: pointer;
+}
+
+.lnk-attachment {
+    text-decoration: underline;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.img-signature {
+    width: 250px;
+    height: 100px;
+    border: solid 1px lightgrey;
+}
+
+.sp-documentinfo {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sp-documentinfo-value {
+    font-weight: normal;
+    color: royalblue;
+    font-size: 12px;
+}
+
+* {
+    border-radius: 0;
+}
+
+table {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.img-form-logo {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.document-label {
+    font-size: 12px;
+    cursor: pointer;
+    color: royalblue;
+}
+
+.img-document {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.div-banner {
+    width: 80%;
+    text-align: center;
+    height: 70px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    background-color: #b4e4ff !important;
+    font-size: 12px;
+    font-weight: bold;
+    border-color: gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.div-form {
+    border: solid 1px royalblue;
+    margin: 5px;
+    border-color: lightblue;
+    border-radius: 2px;
+}
+
+.div-centerscreen {
+    border: solid 1px royalblue;
+    position: fixed;
+    width: 400px;
+    height: 500px; /* Set your desired with */
+    z-index: 2; /* Make sure its above other items. */
+    top: 35%;
+    left: 45%;
+    margin-top: -10%; /* Changes with height. */
+    margin-left: -10%; /* Your width divided by 2. */
+    /* You will not need the below, its only for styling   purposes. */
+    padding: 10px;
+    border-color: lightblue;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.text-version {
+    font-size: 10px;
+    color: blue;
+}
